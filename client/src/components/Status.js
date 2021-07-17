@@ -5,7 +5,7 @@ const Status = ({ statusInfo, onStatusDelete }) => {
   return (
     <div className='status'>
       <p>Name: { name }</p>
-      <p>Lable: { lable }</p>
+      <p>Label: { lable }</p>
       <button onClick={() => onStatusDelete(id)}>Delete</button>
   </div>
   );
